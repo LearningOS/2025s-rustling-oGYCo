@@ -69,6 +69,7 @@ impl<T> LinkedList<T> {
         }
     }
 	pub fn merge(list_a:LinkedList<T>,list_b:LinkedList<T>) -> Self
+    where T:Ord
 	{
 		//TODO
 		let mut cursor_a = list_a.start;
